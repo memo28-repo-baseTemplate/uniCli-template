@@ -6,3 +6,15 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+interface String {
+  log(mark?: string): void
+}
+
+interface Number {
+  log(mark?: string): void
+}
+
+interface Object {
+  log(mark?: string): void
+}
