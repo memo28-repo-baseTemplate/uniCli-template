@@ -1,9 +1,9 @@
 <!--
  * @Author: 邱狮杰
  * @Date: 2023-02-09 21:17:58
- * @LastEditTime: 2023-04-05 17:32:23
+ * @LastEditTime: 2023-10-12 14:56:17
  * @Description: 
- * @FilePath: /v3/src/pages/index/index.vue
+ * @FilePath: /v3-uni-temp/src/pages/index/index.vue
 -->
 <template>
   <view class="content">
@@ -12,7 +12,11 @@
   </view>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Service from '@/service/index'
+Service({
+})
+</script>
 
 <style>
 .content {
