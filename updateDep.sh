@@ -1,7 +1,7 @@
 ###
 # @Author: 邱狮杰&qwm
 # @Date: 2023-10-12 15:18:11
- # @LastEditTime: 2023-10-12 15:47:06
+ # @LastEditTime: 2023-11-24 12:00:30
 # @Description:
  # @FilePath: /v3-uni-temp/updateDep.sh
 ###
@@ -26,4 +26,4 @@ pnpm update @dcloudio/vite-plugin-uni@vue3
 pnpm update @memo28/utils@latest
 pnpm update vue@latest
 pnpm update @memo28/service@latest
-pnpm update vite@latestnext
+pnpm update vite@latest
