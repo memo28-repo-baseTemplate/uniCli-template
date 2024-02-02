@@ -1,4 +1,11 @@
-# @memo28.repo/v3-uni-tem
+<!--
+ * @Author: @memo28.repo
+ * @Date: 2023-04-05 17:45:31
+ * @LastEditTime: 2024-02-02 17:24:31
+ * @Description: 
+ * @FilePath: /v3-uni-temp/README.md
+-->
+# @memo28.repo/uniCli-template
 
 ## 规范git提交
 
@@ -11,3 +18,13 @@ pnpm cz
 ### 预设
 
 - [`@uni-helper/uni-app-types`]('https://github.com/uni-helper/uni-app-types#uni-helperuni-app-types')
+
+- pinia
+
+- mitt
+
+- cz-customizable
+
+- @memo28/service 配置
+
+- @memo28/utils
