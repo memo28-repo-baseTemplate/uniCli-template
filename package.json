@@ -35,7 +35,9 @@
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "type-check": "vue-tsc --noEmit",
-    "cz": "git add . && pnpm cz-customizable"
+    "cz": "git add . && pnpm cz-customizable",
+    "mut:test": "uni-configuration-parsing dev --m=test",
+    "dyc:test": "dynamically-generate-pages dev -m=test"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-alpha-3090920231215001",
@@ -50,6 +52,8 @@
     "@dcloudio/uni-mp-toutiao": "3.0.0-alpha-3090920231215001",
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-3090920231215001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3090920231215001",
+    "@memo28.cmd/dynamically-generate-pages": "^0.0.4",
+    "@memo28.cmd/uni-configuration-parsing": "^0.0.7",
     "@memo28/logs": "^0.1.0",
     "@memo28/service": "^4.1.1",
     "@memo28/serviceimpl": "^1.0.4",
